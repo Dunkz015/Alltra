@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "892960662624",
+    "project_id": "alltra-e601f",
+    "storage_bucket": "alltra-e601f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892960662624:android:21802db78d06af6f668f05",
+        "android_client_info": {
+          "package_name": "com.app.alltra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892960662624-eea884pj0m2b6kclt7pcpnja1mldoqic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2G4h-C2qUtz7YttuHW7z4P_Th2Z_qowg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892960662624-eea884pj0m2b6kclt7pcpnja1mldoqic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
