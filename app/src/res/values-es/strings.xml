@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version">
+        <font size="22">Versión\n</font>
+        <font size="15">1.0</font>
+    </string>
+
+    <string name="developer"><font size="22">Desarrolladores</font></string>
+
+    <string name="email">
+        <font size="22">Correo electrónico\n</font>
+        <a href="mailto:exoticnumbers.feedback@gmail.com?subject=Feedback&amp;body=Message">exoticnumbers.feedback@gmail.com</a>
+    </string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión o registrarse</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="invalid_username">Nombre de usuario inválido</string>
+    <string name="invalid_password">Contraseña inválida</string>
+    <string name="login_failed">Inicio de sesión fallido</string>
+    <string name="login">Login</string>
+    <string name="user">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="remember_me">Recordarme</string>
+    <string name="no_account">¿No tienes una cuenta? Regístrate</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="corfirm_password">Confirmar contraseña</string>
+    <string name="sign_in_instruction">Inicia sesión para continuar</string>
+    <string name="different_password">Las contraseñas no coinciden</string>
+    <string name="error">Error</string>
+    <string name="oops">¡Ups!</string>
+    <string name="try_again">Intentar de nuevo</string>
+    <string name="error_login">Nombre de usuario o contraseña incorrectos</string>
+    <string name="internet_error">Error de conexión\nNo se pudo conectar a internet</string>
+    <string name="generic_error">Lo siento =(\nAlgo salió mal</string>
+    <string name="confirm_email">Confirma tu correo electrónico</string>
+    <string name="resend_email">Reenviar correo electrónico</string>
+    <string name="verify_email">Verifica tu correo electrónico e ingresa o pega el código que te enviamos</string>
+    <string name="signup_success">¡Usuario registrado exitosamente!</string>
+    <string name="wrong_token">Código incorrecto</string>
+    <string name="account_already_exist">Este usuario ya ha sido registrado</string>
+    <string name="account_does_not_exist">Este usuario aún no ha sido registrado</string>
+    <string name="same_password">¡Esta contraseña ya ha sido utilizada! Por favor, utiliza una contraseña diferente</string>
+    <string name="email_token_1">Hola,\n\nEste correo electrónico es para confirmar tu registro en la plataforma Alltra. Tu token de acceso es:</string>
+    <string name="email_token_2">\nUtiliza este token para acceder a la plataforma y comenzar a utilizar nuestros servicios.\n\nGracias por unirte a nosotros, esperamos que tengas una excelente experiencia con nosotros.\n\nAtentamente,\nEquipo de Alltra</string>
+    <string name="success">¡yay!!</string>
+    <string name="success_signup">Usuario registrado exitosamente</string>
+    <string name="enter_email">Ingresa tu correo electrónico</string>
+    <string name="create_new_password">Crear una nueva contraseña</string>
+    <string name="changed_password">¡Contraseña cambiada exitosamente!</string>
+    <string name="language">Idioma</string>
+    <string name="theme">Tema</string>
+    <string name="dark_mode">Modo oscuro</string>
+    <string name="light_mode">Modo claro</string>
+    <string name="credits">Créditos</string>
+    <string name="no_one_clicks_me">Nadie hace clic en mí :(</string>
+    <string name="others">Otros</string>
+    <string name="report_a_bug">Reportar un error</string>
+    <string name="rate_us">Califícanos</string>
+    <string name="home">Inicio</string>
+    <string name="settings">Configuraciones</string>
+    <string name="about">Acerca de</string>
+    <string name="share_app">Compartir aplicación</string>
+    <string name="error_opening_uri_1">Error al compartir, por favor verifica tu aplicación</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="under_construction">Esta función está actualmente en construcción :)</string>
+    <string name="speed_test">Prueba de velocidad</string>
+    <string name="measure">Medir</string>
+    <string name="data_usage">Uso de datos</string>
+    <string name="dashboard">Panel de control</string>
+    <string name="monthly_usage">Uso mensual</string>
+    <string name="week_avg_usage">Uso promedio semanal</string>
+    <string name="category_usage">Porcentaje de uso por categoría</string>
+    <string name="streaming">Streaming</string>
+    <string name="internet">Internet</string>
+    <string name="video_call">Llamada de video</string>
+    <string name="download">Descarga</string>
+    <string name="daily_usage">Uso diario promedio:</string>
+    <string name="monthly_usage_avg">Uso mensual promedio:</string>
+    <string name="app_usage">Uso por aplicaciones</string>
+    <string name="apps">Aplicaciones</string>
+    <string name="live_graph">Gráfico en tiempo real</string>
+    <string name="hourly_usage">Uso por hora</string>
+    <string name="location_usage">Ubicación de mayor consumo</string>
+    <string name="data_prediction">Predicción de datos</string>
+    <string name="you_should_downgrade_your_mobile_plan_by">Deberías reducir tu plan de móvil en:</string>
+    <string name="you_are_overflowing_with_data">¡Estás desbordando de datos!</string>
+    <string name="mobile_plan_review">Revisión del plan de móvil</string>
+    <string name="you_are_lacking_data">¡Te faltan datos!</string>
+    <string name="you_should_upgrade_your_mobile_plan_by">Deberías mejorar tu plan de móvil en:</string>
+    <string name="data_saving_suggestion">Sugerencia para ahorrar datos</string>
+    <string name="you_have_low_data_consumption_there_are_no_savings_suggestions_at_this_time">Tu consumo de datos es actualmente bajo y no hay sugerencias de ahorro disponibles en este momento.</string>
+    <string name="consider_using_a_browser_with_data_compression_like_opera_mini_or_data_compression_apps_like_onavo_extend_or_the_built_in_option_on_android_additionally_compress_images_and_videos_before_sharing">1. Utiliza un navegador con compresión de datos, como Opera Mini, o aplicaciones de compresión de datos como Onavo Extend o la opción incorporada en Android\n\n2. Comprime imágenes y videos antes de compartirlos</string>
+    <string name="remaining_mobile_data_days">Días restantes de datos móviles:</string>
+    <string name="demo_app">¡App Demo!</string>
+    <string name="images">Imágenes</string>
+    <string name="videos">Videos</string>
+    <string name="documents">Documentos</string>
+    <string name="music_files">Música</string>
+    <string name="file_usage">Porcentaje de uso de tipo de archivo</string>
+
+
+</resources>

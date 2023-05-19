@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/first_color"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Toolbar -->
+    <LinearLayout android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/bg_toolbar_bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:clickable="false"
+        android:backgroundTint="@color/first_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/toolbarButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/ripple_effect_round_black"
+            android:scaleType="fitCenter"
+            android:backgroundTint="@color/first_color"
+            android:src="@drawable/ic_baseline_menu_24"
+            tools:ignore="ContentDescription"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/toolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mobileData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/custom_font"
+        android:paddingTop="10dp"
+        android:text="707 MB"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/custom_font"
+        android:text="1 May - 31 May"
+        android:textAlignment="center"
+        android:textColor="@color/light_grey"
+        android:textSize="16sp" />
+
+</LinearLayout>

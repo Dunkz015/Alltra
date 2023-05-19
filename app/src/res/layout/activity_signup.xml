@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/first_color">
+
+    <TextView
+        android:id="@+id/title"
+        android:fontFamily="@font/custom_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="@string/create_account"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_arrow_back_35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:drawableEndCompat="@drawable/ic_arrow_back_green_35" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_top_left_radius_70"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title">
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/AppTheme.TextViewGreen"
+            android:layout_marginTop="40dp"
+            android:text="@string/user"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/usernamematerial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:imeOptions="actionNext"
+            app:hintEnabled="false"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            app:boxBackgroundMode="filled"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:ignore="Autofill">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/username"
+                android:fontFamily="@font/custom_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_color"
+                android:background="@color/main_color"
+                app:hintEnabled="false"
+                android:hint="email@gmail.com"
+                android:textColorHint="@color/grey"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/AppTheme.TextViewGreen"
+            android:layout_marginTop="20dp"
+            android:text="@string/password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/usernamematerial" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordmaterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            app:hintEnabled="false"
+            app:boxBackgroundMode="filled"
+            android:textColorHint="@color/text_color_2"
+            android:selectAllOnFocus="true"
+            android:textSize="25sp"
+            app:passwordToggleTint="@color/dark_grey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:passwordToggleEnabled="true"
+            tools:ignore="Autofill,HardcodedText">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_color"
+                android:hint="*********"
+                android:fontFamily="@font/custom_font"
+                android:paddingEnd="50dp"
+                android:layout_marginBottom="20dp"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/text_color"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="25sp"
+                tools:ignore="RtlSymmetry" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/AppTheme.TextViewGreen"
+            android:layout_marginTop="20dp"
+            android:text="@string/corfirm_password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passwordmaterial" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordmaterial2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            app:hintEnabled="false"
+            app:passwordToggleTint="@color/dark_grey"
+            app:boxBackgroundMode="filled"
+            android:textColorHint="@color/text_color_2"
+            android:selectAllOnFocus="true"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:passwordToggleEnabled="true"
+            tools:ignore="Autofill,HardcodedText">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_color"
+                android:hint="*********"
+                android:paddingEnd="50dp"
+                android:textColorHint="@color/grey"
+                android:fontFamily="@font/custom_font"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/text_color"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="25sp"
+                tools:ignore="RtlSymmetry" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/signup"
+            style="@style/loginButton"
+            android:text="@string/create_account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passwordmaterial2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nl.psdcompany.duonavigationdrawer.views.DuoMenuView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:background="@color/light_grey"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:tag="menu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="130dp"
+        android:scrollbars="none"
+        android:background="@color/main_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/first_color"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    tools:ignore="ContentDescription"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@color/first_color"
+                    android:padding="10dp"
+                    android:src="@drawable/image_logo" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/first_color"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        tools:ignore="RtlSymmetry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/first_color"
+                        android:paddingStart="5dp"
+                        android:text="@string/app_name"
+                        android:textColor="#F6F6F6"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        tools:ignore="RtlSymmetry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/first_color"
+                        android:gravity="start"
+                        android:paddingStart="5dp"
+                        android:text="@string/by_app_challenge"
+                        android:textColor="#F6F6F6"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--code for wave animation-->
+            <com.scwang.wave.MultiWaveHeader
+                android:id="@+id/waveHeader"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:scaleY="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                app:mwhCloseColor="@color/first_color"
+                app:mwhColorAlpha="0.8"
+                app:mwhGradientAngle="360"
+                app:mwhProgress="1"
+                app:mwhStartColor="@color/first_color"
+                app:mwhVelocity="0.6"
+                app:mwhWaveHeight="50dp"
+                app:mwhWaves="MultiWave" />
+
+            <!--The menu-->
+            <TextView
+                android:id="@+id/home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ripple_effect_secondary_background"
+                android:drawablePadding="10dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:text="@string/home"
+                android:textColor="@color/icons"
+                android:textSize="18sp"
+                app:drawableStartCompat="@drawable/ic_baseline_home_24" />
+
+            <TextView
+                android:id="@+id/speedTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ripple_effect_secondary_background"
+                android:drawablePadding="10dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:text="@string/speed_test"
+                android:textColor="@color/icons"
+                android:textSize="18sp"
+                app:drawableStartCompat="@drawable/ic_baseline_speed_24" />
+
+            <TextView
+                android:id="@+id/appUsage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ripple_effect_secondary_background"
+                android:drawablePadding="10dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:text="@string/app_usage"
+                android:textColor="@color/icons"
+                android:textSize="18sp"
+                app:drawableStartCompat="@drawable/ic_baseline_apps_24" />
+
+            <TextView
+                android:id="@+id/liveGraph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ripple_effect_secondary_background"
+                android:drawablePadding="10dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:text="@string/live_graph"
+                android:textColor="@color/icons"
+                android:textSize="18sp"
+                app:drawableStartCompat="@drawable/ic_baseline_ssid_chart_24" />
+
+            <TextView
+                android:id="@+id/dataPrediction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ripple_effect_secondary_background"
+                android:drawablePadding="10dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:text="@string/data_prediction"
+                android:textColor="@color/icons"
+                android:textSize="18sp"
+                app:drawableStartCompat="@drawable/ic_baseline_data_saver_on_24" />
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ripple_effect_secondary_background"
+                android:drawablePadding="10dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:text="@string/logout"
+                android:textColor="@color/light_red"
+                android:textSize="18sp"
+                app:drawableStartCompat="@drawable/ic_baseline_logout_24"
+                app:drawableTint="@color/light_red" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_textview_drawer_others"
+                android:clickable="false"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/others"
+                android:textColor="@color/grey"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ripple_effect_secondary_background"
+                android:drawablePadding="10dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:text="@string/settings"
+                android:textColor="@color/icons"
+                android:textSize="18sp"
+                app:drawableStartCompat="@drawable/ic_baseline_settings_24" />
+
+            <TextView
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ripple_effect_secondary_background"
+                android:drawablePadding="10dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:text="@string/about"
+                android:textColor="@color/icons"
+                android:textSize="18sp"
+                app:drawableStartCompat="@drawable/ic_baseline_info_24" />
+
+            <TextView
+                android:id="@+id/report_bug"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ripple_effect_secondary_background"
+                android:drawablePadding="10dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:text="@string/report_a_bug"
+                android:textColor="@color/icons"
+                android:textSize="18sp"
+                app:drawableStartCompat="@drawable/ic_baseline_bug_report_24" />
+
+            <TextView
+                android:id="@+id/share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ripple_effect_secondary_background"
+                android:drawablePadding="10dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:text="@string/share_app"
+                android:textColor="@color/icons"
+                android:textSize="18sp"
+                app:drawableStartCompat="@drawable/ic_baseline_share_24" />
+
+            <TextView
+                android:id="@+id/rateus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ripple_effect_secondary_background"
+                android:drawablePadding="10dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:text="@string/rate_us"
+                android:textColor="@color/icons"
+                android:textSize="18sp"
+                app:drawableStartCompat="@drawable/ic_baseline_star_border_24" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:lottie_speed="0.8"
+                android:scaleType="fitCenter"
+                android:background="@color/main_color"
+                app:lottie_autoPlay="false"
+                app:lottie_loop="false"
+                app:lottie_rawRes="@raw/cat" />
+        </LinearLayout>
+    </ScrollView>
+</nl.psdcompany.duonavigationdrawer.views.DuoMenuView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language">
+        <item>Dispositivo</item>
+        <item>English</item>
+        <item>Português</item>
+        <item>Español</item>
+    </string-array>
+
+    <string-array name="week_days">
+        <item>Dom</item>
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mié</item>
+        <item>Jue</item>
+        <item>Vie</item>
+        <item>Sáb</item>
+    </string-array>
+
+</resources>
