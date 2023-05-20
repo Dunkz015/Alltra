@@ -6,12 +6,12 @@ No contexto atual, onde a conectividade à internet é essencial, surge o Alltra
 O Alltra oferece uma solução altamente relevante, fornecendo medições precisas e intuitivas do tráfego de rede. O aplicativo capacita os usuários a tomar decisões informadas e ajustar seu uso da rede de acordo com suas necessidades e limites, resultando em um controle mais eficiente dos custos com planos de dados e uma melhor experiência de internet.
 
 # Funcionalidades
-Medição precisa da velocidade da internet.
-Monitoramento detalhado do consumo de pacotes de dados.
-Acompanhamento em tempo real da transição de dados.
-Algoritmos inteligentes que preveem o consumo de dados do usuário.
-Sugestões personalizadas para otimizar o uso da rede.
-Dashboard com métricas detalhadas, incluindo informações sobre as localizações de alto consumo de dados.
+1. Medição precisa da velocidade da internet.
+2. Monitoramento detalhado do consumo de pacotes de dados.
+3. Acompanhamento em tempo real da transição de dados.
+4. Algoritmos inteligentes que preveem o consumo de dados do usuário.
+5. Sugestões personalizadas para otimizar o uso da rede.
+6. Dashboard com métricas detalhadas, incluindo informações sobre as localizações de alto consumo de dados.
 
 # Benefícios
 1. Controle eficiente dos custos com planos de dados.
