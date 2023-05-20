@@ -14,12 +14,12 @@ Sugestões personalizadas para otimizar o uso da rede.
 Dashboard com métricas detalhadas, incluindo informações sobre as localizações de alto consumo de dados.
 
 # Benefícios
-Controle eficiente dos custos com planos de dados.
-Evitar ultrapassar os limites estabelecidos pelas operadoras.
-Melhorar a velocidade e a eficiência da conexão.
-Economizar dinheiro e evitar cobranças adicionais.
-Análise aprofundada do consumo de dados para identificar áreas de alto uso.
-Otimizar a conectividade e utilizar de forma mais eficiente os recursos de rede disponíveis.
+1. Controle eficiente dos custos com planos de dados.
+2. Evitar ultrapassar os limites estabelecidos pelas operadoras.
+3. Melhorar a velocidade e a eficiência da conexão.
+4. Economizar dinheiro e evitar cobranças adicionais.
+5. Análise aprofundada do consumo de dados para identificar áreas de alto uso.
+6. Otimizar a conectividade e utilizar de forma mais eficiente os recursos de rede disponíveis.
 
 ![image](https://github.com/Dunkz015/Alltra/assets/99222557/647dd4f9-3216-447d-a012-15fc61702a85)
 ![image](https://github.com/Dunkz015/Alltra/assets/99222557/8abba7ed-38cf-48ca-9b57-71def8f6fbfc)
